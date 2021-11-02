@@ -27,7 +27,7 @@ public class AppController {
 //    response.put("TOGGLE_EMAIL_VALIDATION", toggleEmailValidation);
 
     // example toggle, custom property
-    response.put("custom property", ff4j.getFeature("TOGGLE_EMAIL_VALIDATION").getProperty("ignore").getValue());
+//    response.put("custom property", ff4j.getFeature("TOGGLE_EMAIL_VALIDATION").getProperty("ignore").getValue());
 
     response.put("features", ff4j.getFeatures());
     response.put("properties", ff4j.getProperties());
