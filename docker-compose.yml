@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: ff4j
+      MYSQL_DATABASE: ff4j
+      MYSQL_USER: ff4j
+      MYSQL_PASSWORD: ff4j
+    ports:
+      - '3306:3306'
